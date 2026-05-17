@@ -1,5 +1,5 @@
 [build]
-  command = "flutter build web --release"
+  command = "flutter build web --release --dart-define=SUPABASE_URL=https://ktyadzbxhirhhqshrpon.supabase.co --dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imt0eWFkemJ4aGlyaGhxc2hycG9uIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg4OTY5NzksImV4cCI6MjA5NDQ3Mjk3OX0.gG06-X148SKCJwk4RJPQN9uhUGY4t72Y_SJ9oC74HpM"
   publish = "build/web"
 
 [[plugins]]
