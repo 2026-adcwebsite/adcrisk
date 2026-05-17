@@ -46,3 +46,10 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 android/app/.cxx
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
