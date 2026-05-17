@@ -4,8 +4,7 @@ import '../core/app_export.dart';
 import '../widgets/custom_error_widget.dart';
 import './services/supabase_service.dart';
 
-// ignore: avoid_web_libraries_in_flutter
-import 'dart:js' as js;
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
